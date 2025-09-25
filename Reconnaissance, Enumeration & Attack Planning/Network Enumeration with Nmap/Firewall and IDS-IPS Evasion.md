@@ -57,7 +57,6 @@ port 25 : no reply that means the firewall igonre the packet `dropped`
 - لو واحد اتقفل، تكمل بالتاني.
 
 **إزاي تكشف إذا فيه IDS/IPS؟**
-
 1. تبدأ سكان من IP واحد (VPS).
 2. لو لاحظت إنك اتعملك Block بعد شوية سكان:
     - يبقى فيه سيستم مراقبة (IDS/IPS).
@@ -123,16 +122,16 @@ OS detection performed. Please report any incorrect results at https://nmap.org/
 Nmap done: 1 IP address (1 host up) scanned in 4.11 seconds
 ```
 
-|**Scanning Options**|**Description**|
-|---|---|
-|`10.129.2.28`|Scans the specified target.|
-|`-n`|Disables DNS resolution.|
-|`-Pn`|Disables ICMP Echo requests.|
-|`-p 445`|Scans only the specified ports.|
-|`-O`|Performs operation system detection scan.|
-|`-S`|Scans the target by using different source IP address.|
-|`10.129.2.200`|Specifies the source IP address.|
-|`-e tun0`|Sends all requests through the specified interface.|
+| **Scanning Options** | **Description**                                        |
+| -------------------- | ------------------------------------------------------ |
+| `10.129.2.28`        | Scans the specified target.                            |
+| `-n`                 | Disables DNS resolution.                               |
+| `-Pn`                | Disables ICMP Echo requests.                           |
+| `-p 445`             | Scans only the specified ports.                        |
+| `-O`                 | Performs operation system detection scan.              |
+| `-S`                 | Scans the target by using different source IP address. |
+| `10.129.2.200`       | Specifies the source IP address.                       |
+| `-e tun0`            | Sends all requests through the specified interface.    |
 
 ---
 ## DNS Proxying
@@ -180,3 +179,31 @@ Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
 |`--disable-arp-ping`|Disables ARP ping.|
 |`--packet-trace`|Shows all packets sent and received.|
 |`--source-port 53`|Performs the scans from specified source port.|
+```folder-overview
+id: b9a3319c-2f0c-4968-ac4a-621b9401c20c
+folderPath: ""
+title: "{{folderName}} overview"
+showTitle: false
+depth: 3
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: false
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+```
