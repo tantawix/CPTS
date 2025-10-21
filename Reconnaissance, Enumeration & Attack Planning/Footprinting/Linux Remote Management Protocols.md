@@ -77,7 +77,7 @@ Subsystem       sftp    /usr/lib/openssh/sftp-server
 (key) ssh-ed25519                           -- [info] available since OpenSSH 6.5
 ...SNIP...
 ```
-#### hange Authentication Method
+#### Change Authentication Method
 
 ```shell-session
 0xTroj6n@htb[/htb]$ ssh -v cry0l1t3@10.129.14.132

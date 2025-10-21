@@ -1,4 +1,4 @@
-The main components used for remote management of Windows and Windows servers are the following:
+*The main components used for remote management of Windows and Windows servers are the following:
 
 - Remote Desktop Protocol (`RDP`)
 - Windows Remote Management (`WinRM`)

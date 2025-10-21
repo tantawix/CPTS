@@ -1,4 +1,4 @@
-- The `Oracle Transparent Network Substrate` (`TNS`) server is a communication protocol that facilitates communication between Oracle databases and applications over networks
+*- The `Oracle Transparent Network Substrate` (`TNS`) server is a communication protocol that facilitates communication between Oracle databases and applications over networks
 - the listener listens for incoming connections on the `TCP/1521` port
 - الTNS ده جزء من نظام قواعد البيانات بتاع شركة Oracle. باختصار، هو اللي بيخلي برامج الإيميلات تتكلم مع قواعد البيانات دي عن طريق الشبكة
 ---
