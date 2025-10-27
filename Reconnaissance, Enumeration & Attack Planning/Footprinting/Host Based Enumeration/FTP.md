@@ -1,4 +1,4 @@
-- The `File Transfer Protocol` (`FTP`) is one of the oldest protocols on the Internet
+l;;lk- The `File Transfer Protocol` (`FTP`) is one of the oldest protocols on the Internet
 - الFTP بيكون عباره عن service بتكون علي سيرفر بيكون عليه ملفات سواء بقي لو عاوزين ننزل الملفات او نرفع ليه ملفات
 - الFTP يعتبر Active و Passive ف نفس الوقت
 - **Active FTP** (الوضع النشط):
